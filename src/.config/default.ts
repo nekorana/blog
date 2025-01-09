@@ -14,37 +14,37 @@ export const defaultConfig: ThemeConfig = {
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/nekorana',
       },
       {
         name: 'rss',
-        href: '/atom.xml',
+        href: '/blog/atom.xml',
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/nekorana',
       },
       {
         name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/nekorana',
       },
     ],
     navLinks: [
       {
         name: 'Posts',
-        href: '/',
+        href: '/blog',
       },
       {
         name: 'Archive',
-        href: '/archive',
+        href: '/blog/archive',
       },
       {
         name: 'Categories',
-        href: '/categories',
+        href: '/blog/categories',
       },
       {
         name: 'About',
-        href: '/about',
+        href: '/blog/about',
       },
     ],
     categoryMap: [{ name: '胡适', path: 'hu-shi' }],
@@ -87,6 +87,6 @@ export const defaultConfig: ThemeConfig = {
     umamiAnalyticsId: '',
   },
   latex: {
-    katex: false,
+    katex: true,
   },
 }
