@@ -9,7 +9,7 @@ export const defaultConfig: ThemeConfig = {
     subtitle: 'Typography',
     author: 'Astra',
     description: 'Rediscory the beauty of typography',
-    website: 'https://nekorana.github.io/',
+    website: 'https://nekorana.github.io/blog',
     pageSize: 5,
     socialLinks: [
       {
@@ -32,19 +32,19 @@ export const defaultConfig: ThemeConfig = {
     navLinks: [
       {
         name: 'Posts',
-        href: '/blog/',
+        href: '/',
       },
       {
         name: 'Archive',
-        href: '/blog/archive',
+        href: '/archive',
       },
       {
         name: 'Categories',
-        href: '/blog/categories',
+        href: '/categories',
       },
       {
         name: 'About',
-        href: '/blog/about',
+        href: '/about',
       },
     ],
     categoryMap: [{ name: '胡适', path: 'hu-shi' }],
