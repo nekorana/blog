@@ -7,7 +7,7 @@ export const defaultConfig: ThemeConfig = {
   site: {
     title: '活版印字',
     subtitle: 'Typography',
-    author: 'Moeyua',
+    author: 'Astra',
     description: 'Rediscory the beauty of typography',
     website: 'https://nekorana.github.io/',
     pageSize: 5,
