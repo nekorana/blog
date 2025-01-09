@@ -10,7 +10,7 @@ import { themeConfig } from './src/.config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nekorana.github.io',
+  site: themeConfig.site.website,
   prefetch: true,
   base: '/blog',
   markdown: {
