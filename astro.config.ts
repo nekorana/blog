@@ -10,9 +10,9 @@ import { themeConfig } from './src/.config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: themeConfig.site.website,
+  site: 'https://nekorana.github.io',
   prefetch: true,
-  base: '/',
+  base: '/blog',
   markdown: {
     remarkPlugins: [
       remarkMath,
