@@ -9,7 +9,7 @@ export const defaultConfig: ThemeConfig = {
     subtitle: 'Typography',
     author: 'Astra',
     description: 'Rediscory the beauty of typography',
-    website: 'https://nekorana.github.io/blog',
+    website: 'https://nekorana.github.io/',
     pageSize: 5,
     socialLinks: [
       {
